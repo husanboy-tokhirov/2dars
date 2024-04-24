@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width:1920px;
+    margin: 0 auto;
+    background-color: #292929;
+}
+.container-small {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.container-medium {
+    max-width: 1394px;
+    margin: 0 auto;
+}
+
+
+#nav .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav .header-nav-content {
+    font-family: 'Raleway';
+    padding: 10px;
+    background-color: #fff;
+    padding: 30px 90px;
+}
+#nav .header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+    list-style: none;
+    text-transform: uppercase;
+}
+#nav .header-list--item {
+    color: #1B1B1B;
+}
+#nav .list--item-secondary {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1B1B1B;
+    padding: 12px ;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #1B1B1B;
+    border-radius: 200px;
+    margin-left: 120px;
+}
+#nav .header-list--item button:hover{
+    background-color: rgb(12, 136, 136);
+    color: #fff;
+}
+#nav .list--item-primary {
+
+    margin-left: 20px;
+    background-color: #BC2222;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 200px;
+    color: #1B1B1B;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+#nav .list-link {
+    display: flex;
+    align-items: center;
+    gap: 0 48px;
+    list-style: none;
+    text-transform: uppercase;
+}
+#nav .list-item--link > a {
+    text-decoration: none;
+    color: #1B1B1B;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-text-span{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: "Raleway";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.65px;
+    text-align: center;
+}
+.header-text-h3{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Baskerville Old Face";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.header-text-border{
+    max-width: 980px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.header-text-p{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Raleway";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.65px;
+    text-align: center;
+    padding-bottom: 161px;
+}
+.footer-wrapper{
+    background-color: #1B1B1B;
+}
+.footer-text span{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+    text-align: left;
+    padding-left: 220px;
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.footer-title{
+    padding-right: 370px;
+    padding-top: 90px;
+}
+.footer-title span{
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+    text-align: right;
+    color: #fff;
+}
+.footer-title p{
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+    text-align: right;
+    padding-top: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width:1877px) {
+    .header{
+        padding: 0px 40px;
+    }
+}
+@media only screen and (max-width:1520px) {
+    .header{
+        padding: 0px 40px;
+    }
+}
+@media only screen and (max-width:1344px) {
+    .header-nav{
+        gap: 30px;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width:1122px) {
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:1096px) {
+    .footer-item{
+        gap: 30px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .header-nav-content{
+        padding: 30px;
+    }
+    .header-nav-content{
+        display: none;
+    }
+    .footer-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:379px) {
+    .header{
+        padding: 0px 30px;
+    }
+    .footer-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
